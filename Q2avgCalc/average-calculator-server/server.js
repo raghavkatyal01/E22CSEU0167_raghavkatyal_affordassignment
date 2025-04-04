@@ -9,7 +9,7 @@ let numberWindow = [];
 
 app.use(cors());
 app.use(express.json());
-
+  
 const API_URLS = {
     p: "http://20.244.56.144/evaluation-service/primes",
     f: "http://20.244.56.144/evaluation-service/fibo",
