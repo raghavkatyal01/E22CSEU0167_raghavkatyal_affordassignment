@@ -16,7 +16,7 @@ const API_URLS = {
     e: "http://20.244.56.144/evaluation-service/even",
     r: "http://20.244.56.144/evaluation-service/rand"
 };
-
+ 
 
 const fetchNumbers = async (type) => {
     try {
